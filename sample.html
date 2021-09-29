@@ -1,0 +1,100 @@
+<Html>  
+<head>   
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style> 
+.center {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border: 5px solid #FFFF00;
+padding: 10px;
+}
+
+.border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 12px solid #000;
+  width: 80%;
+  height: 110%;
+  margin: 0;
+  padding: 0;
+
+} 
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 200;  
+  border: none;  
+  cursor: pointer;  
+  width: 50%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+div {
+  border-style: ridge;
+  width:75%;
+  padding:16px 20px;
+  margin:8px 150;
+}
+
+</style>  
+
+
+
+<title>  
+Employee form
+</title>  
+</head>
+<div class="centre">
+
+<form >   
+<body style="centre">
+<h1>Employee Contract Form</h1>
+<p>Please complete the following information to ensure we maintain a current record of contact information for you and your emergency contacts</p>
+<h3>Job Information</h3> 
+ 
+  
+<label> Title/Position </label>  <br>       
+<input type="text" name="Title" size="130"/> <br> <br>  
+<label> Work Phone </label> <br>   
+<input type="text" name="work phone" placeholder="### ### ####" size="60"/>   
+<label> Email</label>        
+<input type="text" name="email" size="60"/> <br> <br>  
+ 
+<h3>Personal Information</h3>
+<label>Name</label>
+<input type="text" name="first" placeholder="First" size="60"/>
+<input type="text" name="last" placeholder="Last" size="60"/><br> <br>
+
+<label>Address</label><br>
+<input type="text" name="street Address" placeholder="Street Address" size="130"/><br>
+<input type="text" name="street Address line2" placeholder="Street Address Line2" size="130"/><br>
+<input type="text" name="city" placeholder="City" size="60"/>
+<input type="text" name="region" placeholder="Region" size="60"/><br>
+<input type="text" name="postal" placeholder="Postal/Zipcode" size="60"/>
+<select >
+<option value="India" >India</option>
+<option value="USA">USA</option>
+<option value="Russia">Russia</option>
+<option value="Cannada">Cannada</option> 
+</select><br><br>
+
+<label> Home Phone </label>    
+<input type="text" name="homephone" placeholder="### ### ####" size="50"/>   
+<label> Cell Phone </label>        
+<input type="text" name="cellphone" placeholder="### ### ####" size="50"/> <br> <br>  
+
+<label>Email</label><br>
+<input type="text" name="email" size="130"/><br>
+
+<button type="submit" class="registerbtn">SEND FORM</button>    
+</form>  
+</div>
+</body>  
+</html> 
+ 
